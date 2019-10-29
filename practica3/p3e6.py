@@ -1,0 +1,7 @@
+print ("Introduce el nombre de un producto")
+prod=input()
+print ("Ahora introduce el precio que le quieras poner")
+precio=float(input())
+iva=(precio*0.21)
+ivafinal=(precio+iva)
+print ("Tu producto" ,prod, "cuesta" ,precio,"€ pero con IVA cuesta" ,ivafinal,"€")

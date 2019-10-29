@@ -1,0 +1,6 @@
+print ("Introduce el espacio recorrido en kilómetros")
+distancia=int(input())
+print ("Ahora especifica en horas cuánto has tardado en recorrer dicha distancia")
+tiempo=int(input())
+vmedia=(distancia/tiempo)
+print ("Tu velocidad media ha sido de" ,vmedia, "km/h")
